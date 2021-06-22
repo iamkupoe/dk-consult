@@ -48,7 +48,7 @@ export default function Contact() {
 
           <div className="social-media">
             <a
-              href="#"
+              href="https://www.facebook.com/D.K.Travel Consult/"
               target="_blank"
               className="icon-circle"
               rel="noreferrer"
@@ -56,7 +56,7 @@ export default function Contact() {
               <FaFacebookSquare className="fa" />
             </a>
             <a
-              href="#"
+              href="https://www.facebook.com/D.K.Travel Consult/"
               target="_blank"
               className="icon-circle"
               rel="noreferrer"

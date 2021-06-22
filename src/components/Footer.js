@@ -51,13 +51,18 @@ function Footer() {
                 <a
                   href="https://www.facebook.com/D.K.Travel Consult/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <FaFacebookSquare size="1.5em" />
                 </a>
               </div>
 
               <div className="socialMedia">
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.facebook.com/D.K.Travel Consult/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FaInstagramSquare size="1.5em" />
                 </a>
               </div>
