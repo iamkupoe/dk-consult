@@ -1,21 +1,97 @@
 import React from "react";
-import "../../src/css/Footer.scss";
+import "../css/Footer.scss";
+import {
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaWhatsappSquare,
+} from "react-icons/fa";
+import { Container, Row, Col } from "react-bootstrap";
 
 function Footer() {
   return (
-    <div
-      className="container-fluid"
-      variant="light"
-      style={{ background: "#323638", height: 30, textAlign: "center" }}
+    <footer
+      variant="white"
+      className="bg-dark m-10"
+      /*style={{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-evenly",
+        alignItems: "center",
+        // padding: "0px 25px",
+        // background: "#343a40",
+        height: "31px",
+      }}*/
     >
-      <footer
-        variant="white"
-        bg="dark"
-        style={{ color: "#fff", marginLeft: 0 }}
-      >
-        Copyright &copy; FLOSA Technologies
-      </footer>
-    </div>
+      <Container>
+        <Row>
+          <div
+            className="col-lg-4 col-md-3"
+            style={{
+              fontSize: "12px",
+              color: "#cccccc",
+              textAlign: "center",
+            }}
+          >
+            Copyright &copy; 2021
+            <span
+              style={{
+                fontWeight: "bold",
+                fontSize: "12px",
+                marginLeft: "4px",
+                color: "rgb(241,180,120)",
+              }}
+            >
+              DK Travel Consult
+            </span>
+          </div>
+
+          <div className="col-lg-4 col-md-3">
+            <div className="socialMediaContainer">
+              <div className="socialMedia">
+                <a
+                  href="https://www.facebook.com/D.K.Travel Consult/"
+                  target="_blank"
+                >
+                  <FaFacebookSquare size="1.5em" />
+                </a>
+              </div>
+
+              <div className="socialMedia">
+                <a href="#" target="_blank">
+                  <FaInstagramSquare size="1.5em" />
+                </a>
+              </div>
+
+              <div className="socialMedia">
+                <a href="https://wa.link/nmeikk" target="_blank">
+                  <FaWhatsappSquare size="1.5em" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            className="col-lg-4 col-md-3"
+            style={{
+              color: "whitesmoke",
+              fontSize: "12px",
+              textAlign: "center",
+            }}
+          >
+            Powered by
+            <span
+              style={{
+                color: "#00C1DF",
+                marginLeft: "3px",
+                fontSize: "12px",
+              }}
+            >
+              FLOSA Technologies
+            </span>
+          </div>
+        </Row>
+      </Container>
+    </footer>
   );
 }
 

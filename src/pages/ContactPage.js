@@ -127,7 +127,7 @@ export default function Contact() {
           <div className="row col">
             <div className="form-group solo">
               <label>Message</label>
-              <textarea type="text" id="message" rows="3" cols="20"></textarea>
+              <textarea type="text" id="message" rows="2" cols="20"></textarea>
             </div>
           </div>
 

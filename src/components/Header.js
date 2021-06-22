@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import "../css/Header.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "react-bootstrap/Navbar";
+// import { LinkContainer } from "react-router-bootstrap";
+import { Navbar } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 import Nav from "react-bootstrap/Nav";
-import logo from "../assets/images/logo.png";
+import dk from "../assets/images/dk travel.png";
 
 export default class Header extends Component {
   render() {
@@ -29,18 +31,13 @@ export default class Header extends Component {
             }}
             href="#home"
           >
-            <img
-              alt="logo"
-              src={logo}
-              width="60"
-              height="60"
-              className="logo"
-            />
+            <img alt="logo" src={dk} width="60" height="60" className="logo" />
             <p
               style={{
                 fontFamily: "'Amita', cursive",
                 paddingTop: "1rem",
                 paddingLeft: "0.5rem",
+                color: "rgb(160,79,158)",
               }}
             >
               D.K Travel Consult
@@ -48,22 +45,25 @@ export default class Header extends Component {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav link">
-            <Nav className="ml-auto buttons my-nav">
-              <Nav.Link style={{ color: "#fff" }} href="home">
-                Home
-              </Nav.Link>
-              <Nav.Link style={{ color: "#fff" }} href="about">
-                About Us
-              </Nav.Link>
-              <Nav.Link style={{ color: "#fff" }} href="services">
-                Services
-              </Nav.Link>
-              <Nav.Link style={{ color: "#fff" }} href="attractions">
-                Attractions
-              </Nav.Link>
-              <Nav.Link style={{ color: "#fff" }} href="contact">
-                Contact Us
-              </Nav.Link>
+            <Nav activeKey="/home" className="ml-auto buttons navvy">
+              <LinkContainer to="/" exact={true}>
+                <Nav.Link className="mr-sm-5 navvy">Home</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/about">
+                <Nav.Link className="mr-sm-5 ">About Us</Nav.Link>
+              </LinkContainer>
+
+              <LinkContainer to="/services">
+                <Nav.Link className="mr-sm-5">Services</Nav.Link>
+              </LinkContainer>
+
+              <LinkContainer to="/attractions">
+                <Nav.Link>Attractions</Nav.Link>
+              </LinkContainer>
+
+              <LinkContainer to="/contact">
+                <Nav.Link className="mr-sm-5">Contact</Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

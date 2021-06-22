@@ -9,12 +9,13 @@ import mandela from "../assets/images/mandela.jpg";
 import iconic from "../assets/images/ukiconic.jpg";
 import santorini from "../assets/images/santorini.jpg";
 
-const Home = () => {
+const CarouselPage = () => {
   return (
     <div>
       <Carousel fade>
         <Carousel.Item>
           <img
+            style={{ height: "82.2vh" }}
             className="d-block w-100 carouselImage"
             src={dubai2}
             alt="First slide"
@@ -26,6 +27,7 @@ const Home = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
+            style={{ height: "82.2vh" }}
             className="d-block w-100 carouselImage"
             src={santorini}
             alt="Second slide"
@@ -36,6 +38,7 @@ const Home = () => {
 
         <Carousel.Item>
           <img
+            style={{ height: "82.2vh" }}
             className="d-block w-100 carouselImage"
             src={iconic}
             alt="Second slide"
@@ -46,6 +49,7 @@ const Home = () => {
 
         <Carousel.Item>
           <img
+            style={{ height: "82.2vh" }}
             className="d-block w-100 carouselImage"
             src={mandela}
             alt="Second slide"
@@ -56,6 +60,7 @@ const Home = () => {
 
         <Carousel.Item>
           <img
+            style={{ height: "82.2vh" }}
             className="d-block w-100 carouselImage"
             src={usa}
             alt="Third slide"
@@ -65,6 +70,7 @@ const Home = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
+            style={{ height: "82.2vh" }}
             className="d-block w-100 carouselImage"
             src={botswana4}
             alt="Third slide"
@@ -77,4 +83,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default CarouselPage;

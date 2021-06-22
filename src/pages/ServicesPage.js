@@ -22,8 +22,22 @@ export default class ServicesPage extends Component {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={botswana4} />
               <Card.Body>
-                <Card.Title>Hotel Reservation</Card.Title>
-                <Card.Text>
+                <Card.Title
+                  style={{
+                    fontFamily: "'Amita', cursive",
+                    color: "rgb(160,79,158)",
+                    textAlign: "center",
+                  }}
+                >
+                  Hotel Reservation
+                </Card.Title>
+                <Card.Text
+                  style={{
+                    fontFamily: "'Roboto', sans-serif",
+                    color: "#214555",
+                    textAlign: "center",
+                  }}
+                >
                   We facilitate in booking cheaper and comfortable hotels in all
                   our destination countries.
                 </Card.Text>
@@ -34,8 +48,22 @@ export default class ServicesPage extends Component {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={passport} style={{ height: 210 }} />
               <Card.Body>
-                <Card.Title>Passport Acquisition</Card.Title>
-                <Card.Text>
+                <Card.Title
+                  style={{
+                    fontFamily: "'Amita', cursive",
+                    color: "rgb(160,79,158)",
+                    textAlign: "center",
+                  }}
+                >
+                  Passport Acquisition
+                </Card.Title>
+                <Card.Text
+                  style={{
+                    fontFamily: "'Roboto', sans-serif",
+                    color: "#214555",
+                    textAlign: "center",
+                  }}
+                >
                   We help you acquire a genuine Ghanaian passport
                 </Card.Text>
               </Card.Body>
@@ -45,10 +73,16 @@ export default class ServicesPage extends Component {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={ticketing} style={{ height: 210 }} />
               <Card.Body>
-                <Card.Title style={{ color: "blue", textAlign: "center" }}>
+                <Card.Title
+                  style={{
+                    fontFamily: "'Amita', cursive",
+                    color: "rgb(160,79,158)",
+                    textAlign: "center",
+                  }}
+                >
                   Ticketing
                 </Card.Title>
-                <Card.Text style={{ textAlign: "center", color: "blue" }}>
+                <Card.Text style={{ textAlign: "center", color: "#214555" }}>
                   We help you book cheaper flights to your destination
                 </Card.Text>
               </Card.Body>
@@ -60,8 +94,16 @@ export default class ServicesPage extends Component {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={visa} style={{ height: 210 }} />
               <Card.Body>
-                <Card.Title>Visa Acquisition</Card.Title>
-                <Card.Text>
+                <Card.Title
+                  style={{
+                    fontFamily: "'Amita', cursive",
+                    color: "rgb(160,79,158)",
+                    textAlign: "center",
+                  }}
+                >
+                  Visa Acquisition
+                </Card.Title>
+                <Card.Text style={{ textAlign: "center", color: "#214555" }}>
                   We enable you acquire visa with the right documentation
                 </Card.Text>
               </Card.Body>
@@ -71,8 +113,16 @@ export default class ServicesPage extends Component {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={birth} style={{ height: 210 }} />
               <Card.Body>
-                <Card.Title>Birth Certificate Acquisition</Card.Title>
-                <Card.Text>
+                <Card.Title
+                  style={{
+                    fontFamily: "'Amita', cursive",
+                    color: "rgb(160,79,158)",
+                    textAlign: "center",
+                  }}
+                >
+                  Birth Certificate Acquisition
+                </Card.Title>
+                <Card.Text style={{ textAlign: "center", color: "#214555" }}>
                   Acquiring a Ghanaian Birth Certificate is easy with us
                 </Card.Text>
               </Card.Body>
@@ -82,8 +132,16 @@ export default class ServicesPage extends Component {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={planning} style={{ height: 210 }} />
               <Card.Body>
-                <Card.Title>Tour Planning</Card.Title>
-                <Card.Text>
+                <Card.Title
+                  style={{
+                    fontFamily: "'Amita', cursive",
+                    color: "rgb(160,79,158)",
+                    textAlign: "center",
+                  }}
+                >
+                  Tour Planning
+                </Card.Title>
+                <Card.Text style={{ textAlign: "center", color: "#214555" }}>
                   We help you plan your trip for better satisfaction
                 </Card.Text>
               </Card.Body>
@@ -95,8 +153,16 @@ export default class ServicesPage extends Component {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={registration} />
               <Card.Body>
-                <Card.Title>Business Registration</Card.Title>
-                <Card.Text>
+                <Card.Title
+                  style={{
+                    fontFamily: "'Amita', cursive",
+                    color: "rgb(160,79,158)",
+                    textAlign: "center",
+                  }}
+                >
+                  Business Registration
+                </Card.Title>
+                <Card.Text style={{ textAlign: "center", color: "#214555" }}>
                   We help you with your business registration
                 </Card.Text>
               </Card.Body>
@@ -107,8 +173,16 @@ export default class ServicesPage extends Component {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={bank} />
               <Card.Body>
-                <Card.Title>Bank Statement Acquisition</Card.Title>
-                <Card.Text>
+                <Card.Title
+                  style={{
+                    fontFamily: "'Amita', cursive",
+                    color: "rgb(160,79,158)",
+                    textAlign: "center",
+                  }}
+                >
+                  Bank Statement Acquisition
+                </Card.Title>
+                <Card.Text style={{ textAlign: "center", color: "#214555" }}>
                   We aid you in getting Bank statements for your travel
                   documents
                 </Card.Text>

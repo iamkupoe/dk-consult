@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Home from "../src/pages/HomePage";
+import CarouselPage from "./pages/CarouselPage";
 import AboutPage from "../src/pages/AboutPage";
 import ServicesPage from "../src/pages/ServicesPage";
 import AttractionsPage from "../src/pages/AttractionsPage";
@@ -17,11 +17,11 @@ function Navigation() {
     >
       <Router>
         <Header />
-        <Route path="/home" component={Home} exact />
-        <Route path="/about" component={AboutPage} exact />
-        <Route path="/services" component={ServicesPage} exact />
-        <Route path="/attractions" component={AttractionsPage} exact />
-        <Route path="/contact" component={ContactPage} exact />
+        <Route path="/" component={CarouselPage} exact={true} />
+        <Route path="/about" component={AboutPage} exact={true} />
+        <Route path="/services" component={ServicesPage} exact={true} />
+        <Route path="/attractions" component={AttractionsPage} exact={true} />
+        <Route path="/contact" component={ContactPage} exact={true} />
         <Footer />
       </Router>
     </div>
