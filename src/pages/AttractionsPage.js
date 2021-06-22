@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "../css/AttractionsPage.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
+import { Row, Col, Card } from "react-bootstrap";
+// import Col from "react-bootstrap/Col";
+// import Card from "react-bootstrap/Card";
 import botswana from "../assets/images/botswana.jpg";
 import france from "../assets/images/france3.jpg";
 import dubai from "../assets/images/dubaiT.jpg";
@@ -17,7 +17,7 @@ export default class AttractionsPage extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <Row style={{paddingTop: 20}}>
+        <Row style={{ paddingTop: 20 }}>
           <Col>
             <Card className="bg-dark text-white">
               <Card.Img src={botswana} alt="Card image" />
@@ -37,7 +37,7 @@ export default class AttractionsPage extends Component {
           </Col>
         </Row>
 
-        <Row  style={{paddingTop: 10}}>
+        <Row style={{ paddingTop: 10 }}>
           <Col>
             <Card className="bg-dark text-white">
               <Card.Img src={dakota} alt="Card image" />
@@ -57,7 +57,7 @@ export default class AttractionsPage extends Component {
           </Col>
         </Row>
 
-        <Row  style={{paddingTop: 10}}>
+        <Row style={{ paddingTop: 10 }}>
           <Col>
             <Card className="bg-dark text-white">
               <Card.Img src={uk} alt="Card image" />
@@ -77,7 +77,7 @@ export default class AttractionsPage extends Component {
           </Col>
         </Row>
 
-        <Row  style={{paddingTop: 10, marginBottom: "6.2rem"}}>
+        <Row style={{ paddingTop: 10, marginBottom: "6.2rem" }}>
           <Col>
             <Card className="bg-dark text-white">
               <Card.Img src={budget} alt="Card image" />
@@ -89,7 +89,7 @@ export default class AttractionsPage extends Component {
 
           <Col>
             <Card className="bg-dark text-white">
-              <Card.Img  src={cheap} alt="Card image" />
+              <Card.Img src={cheap} alt="Card image" />
               <Card.ImgOverlay>
                 <Card.Title>Buget Hotels in Dubai</Card.Title>
               </Card.ImgOverlay>

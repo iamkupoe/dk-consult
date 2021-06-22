@@ -3,12 +3,10 @@ import "../css/ContactPage.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   FaPhoneAlt,
-  FaTwitterSquare,
   FaInstagramSquare,
   FaFacebookSquare,
   FaMapMarkerAlt,
   FaEnvelope,
-  FaPhoneVolume,
 } from "react-icons/fa";
 import { FcPhoneAndroid } from "react-icons/fc";
 
@@ -90,40 +88,7 @@ export default function Contact() {
               <input type="tel" />
             </div>
           </div>
-          <div className="row col">
-            {/* <div className="form-group solo">
-              <label>What do you want to buy?</label>
-              <div id="radio-buttons">
-                <div className="radio-button">
-                  <input
-                    type="radio"
-                    id="radiohookah"
-                    name="type"
-                    value="hookah"
-                  />{" "}
-                  <label htmlFor="radiohookah">Hookah</label>
-                </div>
-                <div className="radio-button">
-                  <input
-                    type="radio"
-                    id="radiodrinks"
-                    name="type"
-                    value="drinks"
-                  />{" "}
-                  <label htmlFor="radiodrinks">Drinks</label>
-                </div>
-                <div className="radio-button">
-                  <input
-                    type="radio"
-                    id="radiomerchandise"
-                    name="type"
-                    value="merchandise"
-                  />{" "}
-                  <label htmlFor="radiomerchandise">Merchandise</label>
-                </div>
-              </div>
-            </div> */}
-          </div>
+          <div className="row col"></div>
           <div className="row col">
             <div className="form-group solo">
               <label>Message</label>

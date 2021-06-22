@@ -5,7 +5,7 @@ import {
   FaInstagramSquare,
   FaWhatsappSquare,
 } from "react-icons/fa";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 function Footer() {
   return (

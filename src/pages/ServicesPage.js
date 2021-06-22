@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "../css/ServicesPage.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
+import { Row, Col, Card } from "react-bootstrap";
+// import Col from "react-bootstrap/Col";
+// import Card from "react-bootstrap/Card";
 import botswana4 from "../assets/images/botswana4.jpg";
 import passport from "../assets/images/passport.jpg";
 import ticketing from "../assets/images/air-ticketing.jpg";

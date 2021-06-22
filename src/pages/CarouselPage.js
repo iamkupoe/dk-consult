@@ -2,7 +2,7 @@ import React from "react";
 import "../css/Home.scss";
 import Carousel from "react-bootstrap/Carousel";
 import dubai2 from "../assets/images/dubai2.jpg";
-import southa4 from "../assets/images/southa4.jpg";
+// import southa4 from "../assets/images/southa4.jpg";
 import usa from "../assets/images/usa.jpg";
 import botswana4 from "../assets/images/botswana4.jpg";
 import mandela from "../assets/images/mandela.jpg";
