@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import Hamburger from "hamburger-react";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
