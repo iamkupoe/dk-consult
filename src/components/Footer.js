@@ -68,7 +68,11 @@ function Footer() {
               </div>
 
               <div className="socialMedia">
-                <a href="https://wa.link/nmeikk" target="_blank">
+                <a
+                  href="https://wa.link/nmeikk"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FaWhatsappSquare size="1.5em" />
                 </a>
               </div>
