@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "../css/Header.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import { LinkContainer } from "react-router-bootstrap";
 import { Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import Nav from "react-bootstrap/Nav";
@@ -38,6 +37,8 @@ export default class Header extends Component {
                 paddingTop: "1rem",
                 paddingLeft: "0.5rem",
                 color: "rgb(160,79,158)",
+                fontWeight: "600",
+                fontSize: "1rem",
               }}
             >
               D.K Travel Consult

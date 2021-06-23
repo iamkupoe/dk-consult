@@ -6,7 +6,7 @@
 }
 
 .navbar {
-  background: #323638;
+  background: #383236;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -31,4 +31,14 @@
 .navvy a:active {
   // background-color: greenyellow;
   color: rgb(224, 8, 8);
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: 50%/100% 100% no-repeat;
+  background-color: white !important;
 }
