@@ -38,10 +38,10 @@ function Footer() {
                 fontWeight: "bold",
                 fontSize: "12px",
                 marginLeft: "4px",
-                color: "rgb(241,180,120)",
+                color: "rgb(160,79,158)",
               }}
             >
-              DK Travel Consult
+              D.K. Travel Consult
             </span>
           </div>
 

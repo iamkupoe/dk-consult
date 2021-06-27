@@ -10,7 +10,7 @@
   text-align: center;
   color: rgb(52, 24, 207);
   font-weight: 600;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 .p {
   color: rgb(52, 24, 207);
@@ -34,9 +34,9 @@
   display: flex;
   backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.2);
-  z-index: 10;
-  box-shadow: -1px 6px 39px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -1px 6px 39px 0px rgba(0, 0, 0, 0.75);
+  z-index: 7;
+  box-shadow: -1px 6px 28px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 6px 39px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 6px 39px 0px rgba(0, 0, 0, 0.75);
 }
 .contact-info {
@@ -140,7 +140,7 @@ span {
       color: rgb(19, 3, 3);
       border-bottom: 1px solid rgba(207, 36, 36, 0.7);
       transition: all 0.3s ease-in-out;
-      margin-bottom: 3rem;
+      margin-bottom: 1.5rem;
       &:focus {
         border: none;
         outline: none;

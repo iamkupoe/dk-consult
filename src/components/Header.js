@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import Nav from "react-bootstrap/Nav";
-import dk from "../assets/images/dk travel.png";
+import dk from "../assets/images/dk.png";
 
 export default class Header extends Component {
   render() {
@@ -41,7 +41,7 @@ export default class Header extends Component {
                 fontSize: "1rem",
               }}
             >
-              D.K Travel Consult
+              D.K. Travel Consult
             </p>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
