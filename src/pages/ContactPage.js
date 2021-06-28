@@ -9,6 +9,7 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 import { FcPhoneAndroid } from "react-icons/fc";
+import axios from "axios";
 
 export default class Contact extends Component {
   state = {
@@ -52,16 +53,30 @@ export default class Contact extends Component {
   };
   //end
 
-  //formSubmit
-  // formSubmit = () => {
-  //   let data = {
-  //     name: this.state.name,
-  //     lastName: this.state.lastName,
-  //     email: this.state.email,
-  //     number: this.state.number,
-  //     message: this.state.message,
-  //   };
-  // };
+  // formSubmit
+  formSubmit = () => {
+    let data = {
+      name: this.state.name,
+      lastName: this.state.lastName,
+      email: this.state.email,
+      number: this.state.number,
+      message: this.state.message,
+    };
+
+    axios
+      .post("/api/forma", data)
+      .then((res) => {
+        this.setState(
+          {
+            sent: true,
+          },
+          this.resetForm()
+        );
+      })
+      .catch(() => {
+        console.log("Message not sent");
+      });
+  };
 
   //reset form
   resetForm = () => {
@@ -143,6 +158,7 @@ export default class Contact extends Component {
             action="https://www.formbackend.com/f/13fc236f03c6cc1e"
             target="_blank"
             method="POST"
+            onSubmit={this.formSubmit}
             className="contactForm col-lg-8"
           >
             <div className="row col">
