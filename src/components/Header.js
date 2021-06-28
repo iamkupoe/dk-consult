@@ -41,7 +41,7 @@ export default class Header extends Component {
                 fontSize: "0.8rem",
               }}
             >
-              D.K. Travel Consult
+              DK Travel Consult
             </p>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
