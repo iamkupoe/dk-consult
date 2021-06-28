@@ -236,9 +236,7 @@ export default class Contact extends Component {
             </div>
             <div className="row col">
               <div className="form-group solo">
-                <button onClick={this.resetForm} className="btn-primary">
-                  Send Message
-                </button>
+                <button className="btn-primary">Send Message</button>
               </div>
             </div>
           </form>
