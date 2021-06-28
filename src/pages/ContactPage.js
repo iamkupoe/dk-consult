@@ -215,7 +215,7 @@ export default class Contact extends Component {
                 }}
                 className={this.state.sent ? "msg msgAppear" : "msg"}
               >
-                Message has been sent
+                Message has been sent!
               </p>
             </div>
             <div className="row col">
