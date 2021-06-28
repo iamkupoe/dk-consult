@@ -62,21 +62,8 @@ export default class Contact extends Component {
       number: this.state.number,
       message: this.state.message,
     };
-
-    axios
-      .post("/api/forma", data)
-      .then((res) => {
-        this.setState(
-          {
-            sent: true,
-          },
-          this.resetForm()
-        );
-      })
-      .catch(() => {
-        console.log("Message not sent");
-      });
   };
+
   //reset form
   resetForm = () => {
     this.setState({
@@ -91,7 +78,7 @@ export default class Contact extends Component {
       this.setState({
         sent: false,
       });
-    }, 3000);
+    }, 2000);
   };
 
   render() {
@@ -152,7 +139,14 @@ export default class Contact extends Component {
             </div>
           </div>
 
-          <form onSubmit={this.formSubmit} className="contactForm col-lg-8">
+          <form
+            accept-charset="UTF-8"
+            action="https://www.formbackend.com/f/13fc236f03c6cc1e"
+            target="_blank"
+            method="POST"
+            onSubmit={this.formSubmit}
+            className="contactForm col-lg-8"
+          >
             <div className="row col">
               <div className="col-lg-6 form-group solo">
                 <label>First Name</label>
@@ -228,7 +222,9 @@ export default class Contact extends Component {
             </div>
             <div className="row col">
               <div className="form-group solo">
-                <button className="btn-primary">Send Message</button>
+                <button onClick={this.resetForm} className="btn-primary">
+                  Send Message
+                </button>
               </div>
             </div>
           </form>
