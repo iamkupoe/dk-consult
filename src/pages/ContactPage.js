@@ -92,7 +92,7 @@ export default class Contact extends Component {
       this.setState({
         sent: false,
       });
-    }, 2000);
+    }, 3000);
   };
 
   render() {
@@ -156,8 +156,8 @@ export default class Contact extends Component {
           <form
             accept-charset="UTF-8"
             action="https://www.formbackend.com/f/13fc236f03c6cc1e"
-            target="_blank"
             method="POST"
+            target="_blank"
             onSubmit={this.formSubmit}
             className="contactForm col-lg-8"
           >
@@ -236,9 +236,7 @@ export default class Contact extends Component {
             </div>
             <div className="row col">
               <div className="form-group solo">
-                <button onClick={this.resetForm} className="btn-primary">
-                  Send Message
-                </button>
+                <button className="btn-primary">Send Message</button>
               </div>
             </div>
           </form>
