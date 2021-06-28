@@ -38,7 +38,7 @@ export default class Header extends Component {
                 paddingLeft: "0.5rem",
                 color: "rgb(160,79,158)",
                 fontWeight: "600",
-                fontSize: "1rem",
+                fontSize: "0.8rem",
               }}
             >
               D.K. Travel Consult
